@@ -1,0 +1,17 @@
+C:\Users\Rook\programming\chess-calculator\bin\Debug\net9.0\chess-calculator.exe
+C:\Users\Rook\programming\chess-calculator\bin\Debug\net9.0\chess-calculator.deps.json
+C:\Users\Rook\programming\chess-calculator\bin\Debug\net9.0\chess-calculator.runtimeconfig.json
+C:\Users\Rook\programming\chess-calculator\bin\Debug\net9.0\chess-calculator.dll
+C:\Users\Rook\programming\chess-calculator\bin\Debug\net9.0\chess-calculator.pdb
+C:\Users\Rook\programming\chess-calculator\bin\Debug\net9.0\CsvHelper.dll
+C:\Users\Rook\programming\chess-calculator\obj\Debug\net9.0\chess-calculator.csproj.AssemblyReference.cache
+C:\Users\Rook\programming\chess-calculator\obj\Debug\net9.0\chess-calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rook\programming\chess-calculator\obj\Debug\net9.0\chess-calculator.AssemblyInfoInputs.cache
+C:\Users\Rook\programming\chess-calculator\obj\Debug\net9.0\chess-calculator.AssemblyInfo.cs
+C:\Users\Rook\programming\chess-calculator\obj\Debug\net9.0\chess-calculator.csproj.CoreCompileInputs.cache
+C:\Users\Rook\programming\chess-calculator\obj\Debug\net9.0\chess-ca.12C36A7A.Up2Date
+C:\Users\Rook\programming\chess-calculator\obj\Debug\net9.0\chess-calculator.dll
+C:\Users\Rook\programming\chess-calculator\obj\Debug\net9.0\refint\chess-calculator.dll
+C:\Users\Rook\programming\chess-calculator\obj\Debug\net9.0\chess-calculator.pdb
+C:\Users\Rook\programming\chess-calculator\obj\Debug\net9.0\chess-calculator.genruntimeconfig.cache
+C:\Users\Rook\programming\chess-calculator\obj\Debug\net9.0\ref\chess-calculator.dll

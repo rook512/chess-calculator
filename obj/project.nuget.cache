@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EVKAxz0GJ5E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rook\\programming\\chess-calculator\\chess-calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rook\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

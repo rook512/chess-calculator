@@ -25,6 +25,7 @@ namespace chess_calculator
 
         static public void AddNewPlayer(string name, DateOnly dateOfBirth, out Player player, int rating = 1000)
         {
+
             var records = GetPlayers();
             if (records.Count == 0)
             {
@@ -32,6 +33,7 @@ namespace chess_calculator
                 {
                     Id = 1
                 };
+                if (player.Rating >= 2400) player.InternationalMaster = true;
                 IEnumerable<Player> playerUpdate = [player];
                 UpdatePlayers(playerUpdate);
             }
@@ -44,6 +46,7 @@ namespace chess_calculator
                 IEnumerable<int> Ids = records.Select(player => player.Id);
                 int newId = Ids.Max() + 1;
                 player = new(name, dateOfBirth, rating) { Id = newId };
+                if (player.Rating >= 2400) player.InternationalMaster = true;
                 using var stream = File.Open("data\\players.csv", FileMode.Append);
                 using var writer = new StreamWriter(stream);
                 using var csv = new CsvWriter(writer, config);
@@ -128,6 +131,8 @@ namespace chess_calculator
                 blackTarget.Rating = blackRating;
             }
             else throw new($"Could not find player with ID {black.Id}");
+            if (whiteTarget.Rating >= 2400) whiteTarget.InternationalMaster = true;
+            if (blackTarget.Rating >= 2400) blackTarget.InternationalMaster = true;
             UpdatePlayers(players);
         }
         static public void CreateFilesIfNeeded(string fileName)
